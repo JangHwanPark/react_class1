@@ -102,6 +102,36 @@
     width: 100%;
 }
 
+/* 글쓰기 */
+.write-wrap,
+.input-title,
+.text-body {
+    width: 100%;
+}
+
+.input-title {
+    height: 5vh;
+    padding: 1rem;
+}
+
+.text-body {
+    height: 70vh;
+    padding: 1rem;
+}
+
+.input-title,
+.write-date,
+.text-body,
+.button-wrap > button,
+.button-submit > button {
+    font-size: 1.25rem;
+}
+
+.button-wrap > button,
+.button-submit > button {
+    cursor: pointer;
+}
+
 /* Footer */
 .footer {
     height: 50px;
