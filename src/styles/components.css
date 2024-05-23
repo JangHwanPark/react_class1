@@ -46,6 +46,11 @@
 }
 
 /* 게시글 */
+.post-item {
+    grid-column: span 4;
+    grid-row-end: span 12;
+}
+
 .post-item a {
     color: var(--color-dark);
 }

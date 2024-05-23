@@ -28,10 +28,7 @@ export default function PostList({...rest}) {
     return (
         <ul className="post-list grid">
             {posts.map((post, index) => (
-                <li
-                    key={post.id}
-                    className="post-item col-4 row-12"
-                >
+                <li key={post.id} className="post-item">
                     <Link to={`/posts/${post.id}/${post.title}`}>
                         <div className="img-wrap">
                             <img src={post.img} alt="블로그 타이틀 이미지"/>
